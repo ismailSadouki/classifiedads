@@ -1,0 +1,62 @@
+body{
+    font-family: myFirstFont;
+}
+@font-face {
+     font-family: myFirstFont;
+    src: url('JF-Flat-regular.ttf');
+}
+
+.jumbotron{
+    background-color:#595f68;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #595f68;
+    color:#fff;
+    text-align: center;
+}
+
+.caption{
+    color:#000;
+}
+
+.caption strong{
+    color:#4c4cff;
+}
+
+.carousel{
+    width:100%;
+    height: 100%;
+
+}
+.carousel img{
+    width:100%;
+}
+
+.card{
+    background-color: transparent;
+}
+.thumbnail{
+    height:150px;
+}
+
+.carousel-indicators img{
+    border: 1px solid #fff;
+    width:100px;
+    height:100px;
+}
+
+.comment-container{
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-left{
+    position: absolute;
+    left: 10%;
+  }
+}
